@@ -22,27 +22,77 @@
                 <li>Activities</li>
                 <li>Contact</li>
             </ol> -->
-            <section id="home" style="height: 100vh;">
-                <h2>Home</h2>
-                <p>Some pics</p>
-            </section>
-            <section id="about" style="height: 100vh;">
-                <h2>About</h2>
-                <p>Explain my bio</p>
-            </section>
-            <section id="activities" style="height: 100vh;">
-                <h2>Activities</h2>
-                <p>Bruh no act</p>
-            </section>
-            <section id="contact" style="height: 100vh;">
-                <h2>Contact</h2>
-                <p>Private Only</p>
-            </section>
-            
+
             <!-- <a href="https://www.google.com/">Google</a> -->
         </header>
-        <h1>This is the header 1</h1>
-        <p>This is paragraph. Today, I want to talk about my imaginary friends</p>
+
+        <section id="home" style="height: 100vh;">
+            <div style="display: flex;">
+                <div>
+                    <img src="./img/Yoimiya.jpg" style="height: 150px">
+                </div>
+                <div>
+                    <h1>Home</h1>
+                    <h2>Let's watch fireworks together!</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" style="height: 100vh;">
+            <div style="display: flex;">
+                <div>
+                    <h1>About</h1>
+                    <p>I am Yoimiya, a pyrotechnician from Naganohara Family in Inazuma.</p>    
+                </div>
+                <div>
+                    <img src="./img/AboutYoimiya1.jpg" style="height: 150px">
+                    <img src="./img/FireworksYoimiya.jpg" style="height: 150px">
+                </div>
+            </div>
+        </section>
+
+        <section id="activities" style="height: 100vh;">
+            <h1>Activities</h1>
+            <div style="display: flex;">
+                <div>
+                    <img src="./img/firework.jpg" style="height: 150px">
+                    <h2>Activity 1</h2>
+                    <p>Some descriptions</p>
+                </div>
+                <div>
+                    <img src="./img/taiyaki.jpg" style="height: 150px">
+                    <h2>Activity 2</h2>
+                    <p>Some descriptions</p>
+                </div>
+                <div>
+                    <img src="./img/dango.jpg" style="height: 150px">
+                    <h2>Activity 3</h2>
+                    <p>Some descriptions</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" style="height: 100vh;">
+            <h1>Contact</h1>
+            <div style="display: flex;">
+                <img src="./img/PhoneImg.png" style="height: 300px">
+                <form action="mailto:daemail@gmail.com" method="POST" enctype="text/plain">
+                    <div style="display: flex; flex-direction:column;">
+                        <label>Name: </label>
+                        <input type="text" name="Your name" placeholder="Enter your name here">
+                        <label>Email: </label>
+                        <input type="text" name="Your email" placeholder="Enter your email here">
+                        <label>Message: </label>
+                        <textarea type="text" name="Your message" cols="50" rows="10" placeholder="The message goes here"></textarea>
+                        <input type="submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <h2>This is footer</h2> 
+        </footer>
     </body>
     <script>
         // This is a script tag for javascript that can be put anywhere

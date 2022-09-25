@@ -1,0 +1,19 @@
+* { /* Asterisks means effect applies to whole website*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    min-height: 105vh;
+    display: flex;
+    /* justify-content: center; */
+}
+
+h1 {
+    font-size: 5rem;
+    line-height: 2;
+}

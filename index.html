@@ -5,10 +5,14 @@
         <meta charset="utf-8">
         <title> This is the title of a webpage </title>
         <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Gugi&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <nav>
+                <a id="title" href="#home">Yoimiya</a>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -26,18 +30,18 @@
             <!-- <a href="https://www.google.com/">Google</a> -->
         </header>
 
+        <!-- Home -->
         <section id="home" style="height: 100vh;">
-            <div style="display: flex;">
-                <div>
-                    <img src="./img/Yoimiya.jpg" style="height: 150px">
-                </div>
-                <div>
-                    <h1>Home</h1>
-                    <h2>Let's watch fireworks together!</h2>
-                </div>
+            <div>
+                <img src="./img/Yoimiya.jpg" style="height: 150px">
+            </div>
+            <div>
+                <h1>Home</h1>
+                <h2>Let's watch fireworks together!</h2>
             </div>
         </section>
 
+        <!-- About -->
         <section id="about" style="height: 100vh;">
             <div style="display: flex;">
                 <div>
@@ -51,6 +55,7 @@
             </div>
         </section>
 
+        <!-- Activities -->
         <section id="activities" style="height: 100vh;">
             <h1>Activities</h1>
             <div style="display: flex;">
@@ -72,20 +77,22 @@
             </div>
         </section>
 
+        <!-- Contact -->
         <section id="contact" style="height: 100vh;">
-            <h1>Contact</h1>
-            <div style="display: flex;">
+            <div>
                 <img src="./img/PhoneImg.png" style="height: 300px">
+            </div>
+            <div style="display: flex;">
+                <h1>Contact</h1>
+
                 <form action="mailto:daemail@gmail.com" method="POST" enctype="text/plain">
-                    <div style="display: flex; flex-direction:column;">
-                        <label>Name: </label>
-                        <input type="text" name="Your name" placeholder="Enter your name here">
-                        <label>Email: </label>
-                        <input type="text" name="Your email" placeholder="Enter your email here">
-                        <label>Message: </label>
-                        <textarea type="text" name="Your message" cols="50" rows="10" placeholder="The message goes here"></textarea>
-                        <input type="submit">
-                    </div>
+                    <label>Name: </label>
+                    <input type="text" name="Your name" placeholder="Enter your name here"> <br>
+                    <label>Email: </label>
+                    <input type="text" name="Your email" placeholder="Enter your email here"> <br>
+                    <label>Message: </label> <br>
+                    <textarea type="text" name="Your message" cols="50" rows="10" placeholder="The message goes here"></textarea> <br>
+                    <input type="submit">
                 </form>
             </div>
         </section>

@@ -1,0 +1,89 @@
+* { /* Asterisks means effect applies to whole website*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 100;
+    scroll-behavior: smooth;
+    background-color: aquamarine;
+}
+
+section {
+    width: 100%;
+    min-height: 105vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Gugi', cursive;
+    font-size: 5rem;
+    line-height: 2;
+    /* font-weight: bold; */
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 150px;
+    margin: 50px;
+    border: 12px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+nav {
+    height: 64px;
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 30px;
+}
+
+#title {
+    font-size: 1.8rem;
+    font-family: 'Gugi', cursive;
+    text-transform: capitalize;
+}
+
+/* Home Section */
+
+.home {
+    background-color: #FFC29B;
+}
+
+.home div {
+    transform: translateY(64px);
+}
+
+/* About Section */
+
+.about div {
+    margin: 8%;
+}

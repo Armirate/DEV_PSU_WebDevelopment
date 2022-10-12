@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> This is the title of a webpage </title>
+        <link id="pagestyle" rel="stylesheet" href="./style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Gugi&display=swap" rel="stylesheet">
+        <script src=""https://kit.fountawesome.com/7a70d5c651.js crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <noscript>
+            <h1>You need to enable javascript to be able to show all contents on the page</h1>
+        </noscript>
+        <a href="#" onclick="alert('welcome');">click me!</a>
+
+        <p id="demo"> Hello! </p>
+
+        <button onclick="document.getElementById('demo').innerHTML = 'new text';">change text</button>
+        <button onclick="document.getElementById('demo').innerHTML = 'Hello!';">revert text</button>
+        <button onclick="myFun();">alert</button>
+        <button onclick="darkMode();">Dark Mode</button>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -8,7 +8,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Gugi&display=swap" rel="stylesheet">
-        <script src=""https://kit.fountawesome.com/7a70d5c651.js crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/7a70d5c651.js" crossorigin="anonymous"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
         <noscript>
@@ -17,11 +18,23 @@
         <a href="#" onclick="alert('welcome');">click me!</a>
 
         <p id="demo"> Hello! </p>
+        <p id="keypressed_text"> no key pressed yet </p>
 
-        <button onclick="document.getElementById('demo').innerHTML = 'new text';">change text</button>
+        <!-- <button onclick="document.getElementById('demo').innerHTML = 'new text';">change text</button>
         <button onclick="document.getElementById('demo').innerHTML = 'Hello!';">revert text</button>
         <button onclick="myFun();">alert</button>
-        <button onclick="darkMode();">Dark Mode</button>
+        <button onclick="darkMode();">Dark Mode</button> -->
+
+        <a class="paragraph" href="https://www.google.com">a tag</a>
+        <p class="paragraph">line 1</p>
+        <p class="paragraph">line 2</p>
+        <p>line 3</p> 
+        <button id="btn1"> click me! </button>
+        <button> click me! </button>
+        <button> click me! </button>
+
+        <div id="div1" style="width: 100px; height: 100px; background-color:red; background-position-x:left;"> </div>
+
         <script src="script.js"></script>
     </body>
 </html>
